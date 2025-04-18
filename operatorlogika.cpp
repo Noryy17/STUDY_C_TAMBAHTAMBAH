@@ -39,6 +39,7 @@ int main() {
  
      output = (a < 1) && (a > 3);
      cout << "Output (a < 1) && (a > 3): " << output << endl;
+     
  
      // Operator "or" (||), hanya false jika semua kondisi salah
      output = (a < b) || (a > 1);
