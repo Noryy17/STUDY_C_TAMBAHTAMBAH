@@ -1,23 +1,28 @@
-#include<iostream>
+
+#include <iostream>
 using namespace std;
 
-int main(){
-    string namaLengkap;
-    string kalimat;
+int main() {
+    int x, y;
+    bool kondisi;
+    string hasil;
 
-    // Input Nama Lengkap
-    cout << "Masukkan nama lengkap Anda: ";
-    getline(cin, namaLengkap); // Menerima input termasuk spasi
+    // Prompt and input for X
+    cout << "Masukkan Nilai X: ";
+    cin >> x;
 
-    // Input Kalimat
-    cout << "Masukkan kalimat favorit Anda: ";
-    getline(cin, kalimat); // Menerima input kalimat penuh
+    // Prompt and input for Y
+    cout << "Masukkan Nilai Y: ";
+    cin >> y;
 
-    // Output
-    cout << "-----------------------------" << endl;
-    cout << "Nama lengkap Anda: " << namaLengkap << endl;
-    cout << "Kalimat favorit Anda: " << kalimat << endl;
-    cout << "-----------------------------" << endl;
+    // Compare the values
+    kondisi = (x == y); // Simplified condition
+    hasil = kondisi ? "sama dengan" : "tidak sama dengan"; // Simplified ternary operator
+
+    // Display the result
+    cout << "Variable X " << hasil << " Variable Y" << endl;
 
     return 0;
+
 }
+ 
