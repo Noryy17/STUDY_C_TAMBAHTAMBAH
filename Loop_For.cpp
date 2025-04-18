@@ -17,4 +17,5 @@ int main() {
 
     cout << "Wah, seru sekali menghitung bintang!" << endl;
     return 0;
+    
 }
