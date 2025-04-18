@@ -1,32 +1,25 @@
-
-
-
-
-
-
-
-
-#include<iostream>
+#include <iostream>
+#include <string>
 using namespace std;
 
-int main(){
-    string aktivitas;
-    string tempat;
+int main() {
+    string aktivitas, tempat;
     int umur;
 
-    cout << "Apa aktivitas anda cuy: ";
+    cout << "Apa aktivitas anda: ";
     getline(cin, aktivitas);
 
     cout << "Dimana anda " << aktivitas << " : ";
     getline(cin, tempat);
 
-    cout << "Usia berapa anda: ";
+    cout << "Usia anda: ";
     cin >> umur;
 
-    cin.ignore();  // Menghapus karakter newline yang tersisa di buffer
-    
+    cin.ignore(); // Membersihkan buffer setelah `cin >> umur`
+
+    cout << "\n--- Informasi Anda ---\n";
     cout << "Saya sedang " << aktivitas << " di " << tempat << endl;
-    cout << "Usia saya adalah " << umur << " Tahun" << endl;
+    cout << "Usia saya " << umur << " tahun.\n";
 
     return 0;
 }
