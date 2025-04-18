@@ -35,6 +35,7 @@ int main(){
         cout << "Pendaftaran Berhasil!" << endl;
     } else {
         cout << "Input Salah, Pilihan Tidak Tersedia" << endl;
+        
     }
 
     return 0;
