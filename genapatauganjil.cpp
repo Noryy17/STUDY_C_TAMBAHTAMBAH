@@ -9,4 +9,5 @@ int main(){
     string jenis = hasil == 1 ? "Ganjil" : "Genap";
 
     cout<<"bilangan "<<a<<" termasuk bilangan "<<jenis; 
+    
 }
