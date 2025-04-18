@@ -12,4 +12,5 @@ int main(){
     cout << " Sekarang tahun "<<sekarang<<endl;
     cout << " Saya lahir di tahun "<< thn_lahir<<endl;
     cout << " UMUR ANDA SEKARANG "<<umur;
+    
 }
