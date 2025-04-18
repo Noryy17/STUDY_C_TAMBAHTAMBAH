@@ -11,4 +11,5 @@ int main(){
     cout<<" sisa bagi dari "<<a<<" : "<<b<<" adalah "<<hasil;
     
     
+    
 }
