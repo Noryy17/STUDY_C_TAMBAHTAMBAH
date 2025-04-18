@@ -18,6 +18,7 @@ int main(){
     cout << "-----------------------------" << endl;
     cout << "Angka " << a << " adalah bilangan " << kondisi << "." << endl;
     cout << "-----------------------------" << endl;
+    
 
     return 0;
 }
