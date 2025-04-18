@@ -11,4 +11,5 @@ int main(){
 
     hasil = a * b;
     cout<<"hasil dari "<<a<<" X "<<b<<" adalah "<<hasil;
+    
 }
