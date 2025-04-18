@@ -9,6 +9,7 @@ int main() {
     // Intro for kids
     cout << " PERMAINAN ANGKA AJAIB \n\n";
     
+    
     // Get kid's name
     cout << "Hai! Siapa namamu? ";
     getline(cin, name);
