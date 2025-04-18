@@ -21,6 +21,7 @@ int main(){
     
     cout << "L = (a x t)/2   = (" << a << " x " << t << ")/2" << endl;
     cout << " Hasil L Yang di ketahui = " << L << "cm" << endl;
+    
 
     return 0;
 }
