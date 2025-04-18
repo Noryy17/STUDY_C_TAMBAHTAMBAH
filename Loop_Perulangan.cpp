@@ -32,6 +32,7 @@ int main() {
         cout << "Mau main lagi? (y/t): ";
         cin >> jawaban;
         hitungan++;
+        
     }
     cout << "Kamu bermain sebanyak " << hitungan-1 << " kali!" << endl << endl;
     
