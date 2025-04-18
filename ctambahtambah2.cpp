@@ -12,6 +12,7 @@ int main(){
     cin >> tempat;
 
     cout << "Saya sedang " << aktivitas << " di " << tempat << endl;
+    
 
     return 0;
 }
